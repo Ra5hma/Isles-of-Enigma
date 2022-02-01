@@ -4,6 +4,10 @@ public class Actor {
     private String name = "";
     private int health = 0;
 
+    public String toString(){
+        return name+" "+health;
+    }
+
     public String getName() {
         return name;
     }
