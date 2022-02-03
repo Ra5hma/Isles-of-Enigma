@@ -1,8 +1,8 @@
 package Actor;
 
 public class Actor {
-    private String name = "";
-    private int health = 0;
+    private String name ;
+    private int health ;
 
     public String toString(){
         return name+" "+health;
